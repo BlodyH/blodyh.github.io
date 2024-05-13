@@ -21,7 +21,7 @@ repository               : "BlodyH/blodyh.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "avartar.jpg"
   name             : "Yuchen Luo"
   pronouns         : "" 
   bio              : ""
@@ -47,7 +47,7 @@ author:
   stackoverflow    :    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : 
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
