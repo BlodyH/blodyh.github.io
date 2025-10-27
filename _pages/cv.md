@@ -11,7 +11,9 @@ redirect_from:
 
 Education
 ======
-* M.S. Data Science, 2024.02 - 2025.07 (expected)
+* PhD, 2025.09 - 2029.09 (expected)
+  * School of Computing and Information Systems, The University of Melbourne
+* M.S. Data Science, 2024.02 - 2025.07
   * The University of Melbourne, Australia
 * B.S. Mathematics and Statistics, 2021.02 - 2023.11
   * The University of Melbourne, Australia
