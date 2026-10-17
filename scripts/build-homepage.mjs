@@ -207,6 +207,6 @@ function render(isBeyond = false) {
 `;
 }
 await mkdir(path.join(root, 'beyond'), { recursive: true });
-await writeFile(path.join(root, 'index.html'), render());
-await writeFile(path.join(root, 'beyond/index.html'), render(true));
+await writeFile(path.join(root, 'index.html'), render().replace(/[ \t]+$/gm, ''));
+await writeFile(path.join(root, 'beyond/index.html'), render(true).replace(/[ \t]+$/gm, ''));
 console.log('Built index.html and beyond/index.html from homepage.json');
