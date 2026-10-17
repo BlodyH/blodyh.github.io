@@ -1,0 +1,469 @@
+{
+  "profile": {
+    "name": "Yuchen Luo",
+    "initials": "YL",
+    "role": "Ph.D. Student",
+    "department": "School of Computing and Information Systems",
+    "institution": "The University of Melbourne",
+    "institutionUrl": "https://www.unimelb.edu.au/",
+    "location": "Melbourne, Australia",
+    "email": "stluo.luo@gmail.com",
+    "photo": "assets/profile.jpg",
+    "photoAlt": "Yuchen Luo beneath the aurora",
+    "scholar": "https://scholar.google.com/citations?user=_zomykkAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/steven-luo-yuchen/",
+    "github": "https://github.com/BlodyH",
+    "cv": "",
+    "officeMapUrl": "https://www.google.com/maps/search/?api=1&query=Melbourne+Connect%2C+700+Swanston+Street%2C+Carlton+VIC"
+  },
+  "about": [
+    "I am a Ph.D. student in the School of Computing and Information Systems at the University of Melbourne, where I am fortunate to be advised by <a class=\"person-link\" href=\"https://people.eng.unimelb.edu.au/smonazam/\">Professor Sarah Erfani</a> and <a class=\"person-link\" href=\"https://fengliu90.github.io/\">Dr. Feng Liu</a>. Prior to my doctoral studies, I received my Master of Data Science from the same university under the guidance of <a class=\"person-link\" href=\"https://mingming-gong.github.io/\">Associate Professor Mingming Gong</a> and <a class=\"person-link\" href=\"https://sites.google.com/view/liuhua-peng/home\">Dr. Liuhua Peng</a>. I also hold a Bachelor of Science in Mathematics and Statistics from the University of Melbourne.",
+    "My research focuses on <strong>robustness and generalisation in large language models</strong>, particularly how post-training can adapt model behaviour to new requirements while preserving useful capabilities. I am interested in the gap between improvements under limited supervision and reliable behaviour in deployment, and in developing learning methods that remain dependable as tasks and environments change.",
+    "More broadly, I am interested in the <strong>statistical foundations of trustworthy machine learning</strong>, including uncertainty quantification and <strong>conformal prediction</strong>. I draw on my background in mathematics and statistics to study model reliability and principled evaluation, with additional work in time-series modelling."
+  ],
+  "research": [
+    {
+      "title": "LLM Robustness & Post-training",
+      "description": "Robustness and generalisation in large language models, particularly through post-training and adaptation. My focus is on reliable behaviour under changing conditions while preserving the useful capabilities of foundation models."
+    },
+    {
+      "title": "Trustworthy & Statistical Learning",
+      "description": "The statistical foundations of trustworthy machine learning, including uncertainty quantification and conformal prediction. I am interested in principled ways to assess reliability and understand the limits of model predictions."
+    },
+    {
+      "title": "Time Series Modelling",
+      "description": "Machine learning for temporal data, spanning forecasting and generative modelling. I study how models capture evolving patterns and generalise across different settings, guided by statistical structure."
+    }
+  ],
+  "news": [],
+  "publications": [
+    {
+      "title": "Robust Preference Alignment under Shifting Preference Distributions",
+      "group": "llm-robustness",
+      "status": "under-review"
+    },
+    {
+      "title": "Trigger Isolation: Decomposing Triggers and Targets for LLM Backdoor Purification",
+      "group": "llm-robustness",
+      "status": "under-review"
+    },
+    {
+      "title": "Can Language Represent Semantic Variation? A Semantic Basis for VLM Robustness Audits",
+      "group": "llm-robustness",
+      "status": "under-review"
+    },
+    {
+      "title": "StrideDiffusion: Accelerating Diffusion Models for Time-Series Generation",
+      "group": "time-series-statistics",
+      "status": "under-review"
+    },
+    {
+      "title": "Towards Accurate Time Series Forecasting via Implicit Decoding",
+      "group": "time-series-statistics",
+      "status": "published",
+      "authors": "Xinyu Li, Yuchen Luo, Hao Wang, Haoxuan Li, Liuhua Peng, Feng Liu, Yandong Guo, Kun Zhang, Mingming Gong",
+      "venue": "NeurIPS",
+      "year": "2025",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0e82ef0c89df6a6eff8734ea7e27c42f-Abstract-Conference.html",
+      "note": "Advances in Neural Information Processing Systems 38.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0e82ef0c89df6a6eff8734ea7e27c42f-Paper-Conference.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/rakuyorain/Implicit-Forecaster"
+        }
+      ]
+    },
+    {
+      "title": "Adapformer: Adaptive Channel Management for Multivariate Time Series Forecasting",
+      "group": "time-series-statistics",
+      "status": "published",
+      "authors": "Yuchen Luo, Xinyu Li, Liuhua Peng, Mingming Gong",
+      "venue": "Neural Networks",
+      "year": "2026",
+      "url": "https://doi.org/10.1016/j.neunet.2025.107988",
+      "note": "Vol. 193, article 107988. First published online in 2025.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1016/j.neunet.2025.107988"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2511.14632"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "period": "Sep 2025 — present",
+      "title": "Ph.D. in Computing and Information Systems",
+      "institution": "The University of Melbourne",
+      "detail": "School of Computing and Information Systems"
+    },
+    {
+      "period": "Mar 2024 — Aug 2025",
+      "title": "Master of Data Science",
+      "institution": "The University of Melbourne",
+      "field": "Data Science",
+      "fieldLabel": "Field of study",
+      "wam": 89,
+      "handbookUrl": "https://handbook.unimelb.edu.au/2024/courses/mc-datasc"
+    },
+    {
+      "period": "Mar 2021 — Dec 2023",
+      "title": "Bachelor of Science",
+      "institution": "The University of Melbourne",
+      "field": "Mathematics and Statistics",
+      "fieldLabel": "Major",
+      "wam": 90,
+      "handbookUrl": "https://handbook.unimelb.edu.au/2026/components/b-sci-major-29/print"
+    },
+    {
+      "period": "Feb 2018 — Nov 2020",
+      "title": "Victorian Certificate of Education (VCE)",
+      "institution": "Glen Waverley Secondary College",
+      "atar": "99.80"
+    }
+  ],
+  "teaching": [
+    {
+      "year": 2026,
+      "title": "Linear Statistical Models",
+      "code": "MAST30025",
+      "role": "Tutor",
+      "handbookUrl": "https://handbook.unimelb.edu.au/2026/subjects/mast30025"
+    },
+    {
+      "year": 2026,
+      "title": "Applied Data Science",
+      "code": "MAST30034",
+      "role": "Head Tutor",
+      "detail": "Undergraduate Data Science capstone",
+      "handbookUrl": "https://handbook.unimelb.edu.au/2026/subjects/mast30034"
+    },
+    {
+      "year": 2025,
+      "title": "Probability",
+      "code": "MAST20004",
+      "role": "Tutor",
+      "handbookUrl": "https://handbook.unimelb.edu.au/2025/subjects/mast20004"
+    },
+    {
+      "year": 2025,
+      "title": "Machine Learning",
+      "code": "COMP30027",
+      "role": "Tutor",
+      "handbookUrl": "https://handbook.unimelb.edu.au/2025/subjects/comp30027"
+    },
+    {
+      "year": 2024,
+      "title": "Statistics",
+      "code": "MAST20005",
+      "role": "Tutor",
+      "handbookUrl": "https://handbook.unimelb.edu.au/2024/subjects/mast20005"
+    },
+    {
+      "year": 2024,
+      "title": "Stochastic Modelling",
+      "code": "MAST30001",
+      "role": "Tutor",
+      "handbookUrl": "https://handbook.unimelb.edu.au/2024/subjects/mast30001"
+    }
+  ],
+  "service": [
+    {
+      "title": "Neural Networks",
+      "detail": "Journal reviewer",
+      "period": ""
+    },
+    {
+      "title": "ICLR 2027",
+      "detail": "Conference reviewer",
+      "period": ""
+    }
+  ],
+  "awards": [
+    {
+      "year": "2023",
+      "title": "Mathematics and Statistics Vacation Scholarship"
+    },
+    {
+      "year": "2022, 2023",
+      "title": "Dean’s Honours List — Bachelor of Science"
+    },
+    {
+      "year": "2022",
+      "title": "Melbourne International Undergraduate Scholarship"
+    }
+  ],
+  "beyond": {
+    "intro": "Life with Belial, Kyokushin karate, and community service with CSSA@UoM.",
+    "sections": [
+      {
+        "type": "pet",
+        "id": "belial",
+        "navTitle": "Belial",
+        "title": "Belial",
+        "chineseName": "贝利亚",
+        "eyebrow": "My little companion",
+        "intro": "Meet Belial (贝利亚), my West Highland White Terrier. He is a little boy with bright eyes, soft white fur, and a face that makes it very easy to put work aside for a moment.",
+        "birthday": "2026-07-13",
+        "birthdayLabel": "13 July 2026",
+        "breed": "West Highland White Terrier",
+        "sex": "Boy",
+        "nameStory": "His name is inspired by Ultraman Belial (贝利亚奥特曼).",
+        "galleryIntro": "A few small moments from life with Belial.",
+        "photos": [
+          {
+            "src": "assets/belial/belial-07.webp",
+            "thumbnail": "assets/belial/belial-07-thumb.webp",
+            "caption": "Just checking in.",
+            "alt": "Belial leaning close to the camera, with bright eyes and a little heart-shaped nose.",
+            "position": "50% 52%"
+          },
+          {
+            "src": "assets/belial/belial-05.webp",
+            "thumbnail": "assets/belial/belial-05-thumb.webp",
+            "caption": "Tiny paws, serious expression.",
+            "alt": "Belial sitting on the carpet and looking up.",
+            "position": "50% 43%"
+          },
+          {
+            "src": "assets/belial/belial-03.webp",
+            "thumbnail": "assets/belial/belial-03-thumb.webp",
+            "caption": "A little hello.",
+            "alt": "Belial lying in my lap with his little paws up.",
+            "position": "50% 38%"
+          },
+          {
+            "src": "assets/belial/belial-01.webp",
+            "thumbnail": "assets/belial/belial-01-thumb.webp",
+            "caption": "A little bundle of fluff.",
+            "alt": "Belial as a tiny puppy resting in my lap.",
+            "position": "66% 44%"
+          },
+          {
+            "src": "assets/belial/belial-09.webp",
+            "thumbnail": "assets/belial/belial-09-thumb.webp",
+            "caption": "Special delivery.",
+            "alt": "Belial carrying a soft toy shaped like a slice of bread.",
+            "position": "50% 34%"
+          },
+          {
+            "src": "assets/belial/belial-06.webp",
+            "thumbnail": "assets/belial/belial-06-thumb.webp",
+            "caption": "The pillow is mine now.",
+            "alt": "Belial resting beside a pillow.",
+            "position": "48% 54%"
+          },
+          {
+            "src": "assets/belial/belial-04.webp",
+            "thumbnail": "assets/belial/belial-04-thumb.webp",
+            "caption": "The art of the sploot.",
+            "alt": "Belial stretched out on the carpet in the sunshine.",
+            "position": "50% 62%"
+          },
+          {
+            "src": "assets/belial/belial-08.webp",
+            "thumbnail": "assets/belial/belial-08-thumb.webp",
+            "caption": "A very important slipper.",
+            "alt": "Belial holding a slipper between his paws.",
+            "position": "50% 54%"
+          },
+          {
+            "src": "assets/belial/belial-02.webp",
+            "thumbnail": "assets/belial/belial-02-thumb.webp",
+            "caption": "A peek around the door.",
+            "alt": "Belial peeking through his puppy gate.",
+            "position": "52% 48%"
+          }
+        ],
+        "video": {
+          "src": "assets/belial/belial-playing.mp4",
+          "poster": "assets/belial/belial-video-poster.webp",
+          "title": "A little moment in motion",
+          "caption": "Belial, busy being little.",
+          "width": 272,
+          "height": 480
+        },
+        "walkInvitation": "Informal inquiries about joint dog-walking are warmly welcomed; Belial is open to new collaborators."
+      },
+      {
+        "type": "martial-arts",
+        "id": "karate",
+        "navTitle": "Kyokushin Karate",
+        "title": "Kyokushin Karate",
+        "chineseTitle": "极真空手道",
+        "eyebrow": "A practice for life",
+        "period": "2012 — present",
+        "grade": "1st Kyu",
+        "image": "assets/karate/kyokushin-training.webp",
+        "imageAlt": "Yuchen Luo practising a high kick in a karate gi during an earlier training session.",
+        "photoNote": "From the archives, many years ago. Not representative of my current physique.",
+        "paragraphs": [
+          "I first stepped into a dojo in 2012, as a Year 4 primary school student, and Kyokushin has been a constant in my life ever since. I have been fortunate to win both of the championships I entered in Shanghai, though it is the years of training between those moments that have shaped me most.",
+          "What has stayed with me is the discipline of training itself. Years of demanding practice have taught me to stay with difficult things, to meet a challenge with courage, and to keep working when progress is hard to see. I love the intensity and honesty of the sport: effort is something you return to, session after session, long before it becomes an achievement.",
+          "Its lessons reach well beyond the dojo. Learning to use force has made me more conscious of restraint, personal boundaries, and the dignity of others. I see strength as carrying an obligation to act with care: to respect the people around me, to take responsibility for my actions, and to offer help where I can. That balance of resolve and consideration is what I hope to carry into everyday life."
+        ],
+        "signoff": "OSU!",
+        "dojoKun": {
+          "title": "Dojo Kun",
+          "chineseTitle": "道场训",
+          "subtitle": "七条训诫 · Seven precepts",
+          "precepts": [
+            {
+              "zh": "我们要磨练身心，养成坚固不拔的精神。",
+              "en": "Build an unwavering character through sustained physical and mental training."
+            },
+            {
+              "zh": "我们要将武学精髓发挥至极致，养成随机应变之敏捷身手。",
+              "en": "Explore the martial path with awareness and a readiness to respond."
+            },
+            {
+              "zh": "我们要以诚实刚健为本，培养出战胜自我的精神。",
+              "en": "Practise rigorous self-discipline, placing purpose above personal indulgence."
+            },
+            {
+              "zh": "我们要尊师重道，举止有礼，不可有耀武扬威之心。",
+              "en": "Honour etiquette and seniority; let conduct be guided by restraint."
+            },
+            {
+              "zh": "我们要尊重各宗教信仰，不忘谦让的美德。",
+              "en": "Keep faith and spiritual humility at the heart of practice."
+            },
+            {
+              "zh": "我们要每日努力不懈，提高自我智性和体力。",
+              "en": "Seek understanding and strength without becoming distracted by lesser desires."
+            },
+            {
+              "zh": "我们将终身修炼空手道，追寻和实践极真之道的真谛。",
+              "en": "Continue learning throughout life, deepening the meaning of Kyokushin through practice."
+            }
+          ],
+          "sourceUrl": "https://www.kyokushinkaikan.org/en/philosophy/",
+          "sourceLabel": "IKO Kyokushinkaikan",
+          "note": "A concise paraphrase of the traditional dojo oath.",
+          "noteZh": "中文道场训，英文附简译。"
+        },
+        "paragraphsZh": [
+          "2012年，还在读小学四年级的我，第一次走进极真空手道的道场。从那时起，这项运动便始终伴随着我的成长。我有幸在上海参加的两次锦标赛中均获得冠军。然而，如今回望，比起夺冠的瞬间，真正塑造我的，是那些日复一日、默默坚持的训练岁月。荣誉或许属于某个时刻，而时间所沉淀的品格，才是更为长久的收获。",
+          "多年习武让我逐渐明白，坚持并非始终满怀热情，而是在面对困难、看不到进步时，依然愿意付出努力；勇气也并非无所畏惧，而是在挑战面前选择迎难而上。我热爱极真空手道的纯粹与真实。在这里，成长没有捷径，每一分进步都需要时间与汗水的积累。比起最终的胜负，我更珍视一次次走进道场、全力以赴的过程。正是这些平凡而漫长的坚持，让坚韧与自律逐渐成为了我的一部分。",
+          "而道场给予我的，远不止身体与意志的磨炼。越是理解力量，越懂得克制的意义；越是经历对抗，越明白尊重与分寸的重要。我逐渐认识到，真正的强大，不仅在于有能力面对挑战，更在于懂得如何运用自己的力量。它意味着尊重他人的尊严与边界，为自己的言行承担责任，也意味着在力所能及之时，愿意向他人伸出援手。我相信，坚定与温和并不矛盾，力量与善意也应当并存。这份对力量与责任的理解，是极真空手道留给我最珍贵的领悟，也是我希望在道场之外，始终践行的人生态度。"
+        ]
+      },
+      {
+        "type": "community",
+        "id": "cssa",
+        "title": "CSSA@UoM",
+        "navTitle": "CSSA@UoM",
+        "eyebrow": "Community & service",
+        "organization": "Chinese Students and Scholars Association, University of Melbourne",
+        "organizationUrl": "https://cssaunimelb.com/",
+        "image": "assets/cssa/student-handbook-2026.webp",
+        "imageAlt": "Copies of the CSSA@UoM University of Melbourne Student Handbook for 2026.",
+        "imageWidth": 1440,
+        "imageHeight": 810,
+        "photoCaption": "CSSA@UoM · Student Handbook 2026",
+        "languages": [
+          {
+            "code": "en",
+            "label": "EN",
+            "intro": "I joined CSSA, Melbourne’s largest Chinese student society, in early 2023. It became a place to put my technical background to work and help other students find their footing in Melbourne.",
+            "roles": [
+              {
+                "period": "Early 2023",
+                "title": "Joined IT & Development"
+              },
+              {
+                "period": "Sep 2024 — Sep 2025",
+                "title": "Head of IT & Development"
+              },
+              {
+                "period": "Sep 2025 — Jun 2026",
+                "title": "Vice President"
+              }
+            ],
+            "work": [
+              {
+                "title": "Technology in service of students",
+                "paragraphs": [
+                  "As Head of IT & Development, I oversaw the development and maintenance of the society’s website and WeChat Mini Program, coordinated technical support, and proposed and led CSSAGPT."
+                ]
+              },
+              {
+                "title": "A more confident beginning",
+                "paragraphs": [
+                  "As Vice President, I led the 2026 Semester 1 pre-departure programme in China, working with Bank of China’s Sydney and Melbourne branches and the Chinese Consulate-General in Melbourne. Two months of preparation led to two weekends of briefings in Beijing, Shanghai and Guangzhou, supporting over 100 incoming-student families.",
+                  "This was CSSA’s first in-person programme of this scale in China in several years, made possible by the dedication of our collaborators, speakers and volunteers."
+                ],
+                "metrics": [
+                  {
+                    "value": "100+",
+                    "label": "families supported"
+                  },
+                  {
+                    "value": "3",
+                    "label": "cities in China"
+                  },
+                  {
+                    "value": "2",
+                    "label": "weekends of events"
+                  }
+                ]
+              },
+              {
+                "title": "Sharing knowledge across the AI and IT community",
+                "paragraphs": [
+                  "Since 2025, I have led a departmental sharing series each semester, connecting current members with alumni and industry practitioners. Recent AI discussions bring together technical, business and product perspectives to help students understand the field, develop relevant skills and make informed career choices."
+                ]
+              }
+            ],
+            "reflectionTitle": "Why this matters to me",
+            "reflections": [
+              "I remember the loneliness and uncertainty of arriving in Melbourne for high school. Helping others find their footing is now one of the most rewarding ways I can give back. Conversations with students and parents at the briefings reminded me how much practical advice can mean: reassurance, trust and a more confident beginning.",
+              "I have since stepped back from CSSA to better balance my studies and personal life. I remain committed to community service and hope to keep contributing in ways I can sustain."
+            ],
+            "accessibleLabel": "English"
+          }
+        ]
+      }
+    ]
+  },
+  "publicationGroups": [
+    {
+      "id": "llm-robustness",
+      "title": "LLM Robustness"
+    },
+    {
+      "id": "time-series-statistics",
+      "title": "Time Series"
+    }
+  ],
+  "teachingAppointment": {
+    "institution": "The University of Melbourne",
+    "period": "Jul 2024 — present"
+  },
+  "researchExperience": [
+    {
+      "period": "Oct 2025 — Feb 2026",
+      "title": "Research Assistant",
+      "institution": "The University of Melbourne",
+      "description": "Calibrated models for engineering applications using statistical methods.",
+      "collaborators": [
+        {
+          "name": "Prof. Kevin Otto",
+          "url": "https://findanexpert.unimelb.edu.au/profile/853950-kevin-otto"
+        },
+        {
+          "name": "Dr. Liuhua Peng",
+          "url": "https://sites.google.com/view/liuhua-peng/home"
+        }
+      ]
+    }
+  ]
+}
