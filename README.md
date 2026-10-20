@@ -42,7 +42,7 @@ node scripts/build-homepage.mjs
 | 荣誉与奖项 | `awards` |
 | 学术之外 | `beyond.intro`、`beyond.sections` |
 
-个人链接已接入 Scholar、LinkedIn 和 GitHub。论文按 LLM Robustness 和 Time Series 两个主题分组：四篇在审稿件仅显示标题与 Under review 状态，两篇公开论文列出作者、正式来源及链接。教育经历使用起止月份，并标注本科、硕士的专业和 WAM；Handbook 链接直接放在专业文字上，可用 `field`、`fieldLabel`、`wam`、`handbookUrl` 修改。教学经历按年份倒序列出六门课程，课程名链接至对应年份的 Handbook，并标注 Head Tutor。Research experience 单列工程应用中的统计模型校准 RA 经历；教育部分包含 VCE 和 ATAR 99.80。学术服务列出 Neural Networks 和 ICLR 2027 审稿。简介、教育与奖项以原仓库和本人提供的信息为依据，没有使用旧主题的示例论文或教学经历。头像继续使用原仓库照片，`assets/profile.jpg` 是缩小文件体积后的网页版本，原图未改动。
+个人链接已接入 Scholar、LinkedIn 和 GitHub。论文按 LLM Robustness 和 Time Series 两个主题分组：四篇在审稿件仅显示标题与 Under review 状态，两篇公开论文列出作者、正式来源及链接。教育经历使用起止月份，并标注本科、硕士的专业和 WAM；Handbook 链接直接放在专业文字上，可用 `field`、`fieldLabel`、`wam`、`handbookUrl` 修改。教学经历按年份倒序列出课程与任职，课程名链接至对应年份的 Handbook，并标注 Tutor、Head Tutor 或 Marker。Research experience 单列工程应用中的统计模型校准 RA 经历；教育部分包含 VCE 和 ATAR 99.80。学术服务列出 Neural Networks 和 ICLR 2027 审稿。简介、教育与奖项以原仓库和本人提供的信息为依据，没有使用旧主题的示例论文或教学经历。头像继续使用原仓库照片，`assets/profile.jpg` 是缩小文件体积后的网页版本，原图未改动。
 
 ### 补充论文
 

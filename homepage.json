@@ -147,6 +147,20 @@
       "handbookUrl": "https://handbook.unimelb.edu.au/2026/subjects/mast30034"
     },
     {
+      "year": 2026,
+      "title": "Stochastic Modelling",
+      "code": "MAST30001",
+      "role": "Tutor",
+      "handbookUrl": "https://handbook.unimelb.edu.au/2026/subjects/mast30001"
+    },
+    {
+      "year": 2026,
+      "title": "Elements of Data Processing",
+      "code": "COMP20008",
+      "role": "Marker",
+      "handbookUrl": "https://handbook.unimelb.edu.au/2026/subjects/comp20008"
+    },
+    {
       "year": 2025,
       "title": "Probability",
       "code": "MAST20004",
