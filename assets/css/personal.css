@@ -286,7 +286,7 @@ h3 { font-size: 14px; font-weight: 600; line-height: 1.5; }
 .pet-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: center; }
 .pet-feature { margin: 0; min-width: 0; }
 .photo-link { display: block; overflow: hidden; border-radius: 4px; background: var(--blue-tint); cursor: zoom-in; }
-.pet-feature img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; }
+.pet-feature img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; }
 .pet-copy h2 { font-family: var(--serif); font-size: 36px; line-height: 1.2; font-weight: 400; letter-spacing: -.6px; margin-bottom: 16px; }
 .pet-copy h2 > span { font-family: var(--sans); font-size: 17px; letter-spacing: 2px; color: var(--muted); margin-left: 6px; white-space: nowrap; }
 .pet-intro { font-size: 13px; line-height: 1.95; }
@@ -295,12 +295,19 @@ h3 { font-size: 14px; font-weight: 600; line-height: 1.5; }
 .pet-facts dt { color: var(--muted); }
 .pet-facts dd { margin: 0; }
 .pet-name-story { color: var(--muted); font-size: 12px; line-height: 1.9; padding-top: 17px; border-top: 1px solid var(--line); }
-.gallery-heading { margin-top: 35px; margin-bottom: 20px; }
+.pet-album { margin-top: 30px; min-width: 0; }
+.gallery-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 15px; }
 .gallery-heading h3 { font-family: var(--serif); font-size: 23px; font-weight: 400; margin-bottom: 5px; }
-.gallery-heading > p { font-size: 12px; color: var(--muted); }
-.gallery-heading > span { display: inline-block; margin-top: 6px; font-size: 10px; color: var(--muted); }
-.pet-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 25px 20px; }
-.pet-photo { margin: 0; min-width: 0; }
+.gallery-heading p { font-size: 10px; color: var(--muted); line-height: 1.7; }
+.gallery-controls { display: flex; gap: 7px; flex-shrink: 0; }
+.gallery-controls[hidden] { display: none; }
+.gallery-controls button { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 0; border: 1px solid var(--line); border-radius: 50%; background: var(--paper); color: var(--blue); cursor: pointer; transition: background .2s, border-color .2s; }
+.gallery-controls button:hover:not(:disabled) { background: var(--blue-tint); border-color: var(--blue); }
+.gallery-controls button:disabled { opacity: .35; cursor: default; }
+.gallery-controls .icon { width: 17px; height: 17px; }
+.pet-gallery { display: grid; grid-auto-flow: column; grid-auto-columns: clamp(160px, 34%, 230px); gap: 16px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: 2px; scrollbar-width: thin; scrollbar-color: #9aafbf var(--blue-tint); padding: 2px 2px 14px; }
+.pet-gallery:focus-visible, .gallery-controls button:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+.pet-photo { margin: 0; min-width: 0; scroll-snap-align: start; }
 .pet-photo img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
 .pet-photo figcaption { margin-top: 7px; color: var(--muted); font-family: var(--serif); font-size: 12px; font-style: italic; }
 .pet-motion { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: center; margin-top: 36px; padding: 28px; border: 1px solid var(--line); border-radius: 4px; background: var(--blue-tint); }
@@ -332,13 +339,14 @@ body:has(.photo-lightbox[open]) { overflow: hidden; }
   .personal-navigation { gap: 9px 19px; }
   .personal-navigation a { font-size: 11px; }
   .pet-hero { grid-template-columns: 1fr; gap: 24px; }
-  .pet-feature { max-width: 440px; }
-  .pet-feature img { aspect-ratio: 4 / 5; }
+  .pet-feature { max-width: none; }
+  .pet-feature img { aspect-ratio: 4 / 3; }
   .pet-copy h2 { font-size: 33px; }
   .pet-copy h2 > span { font-size: 16px; }
   .pet-facts { margin: 18px 0; }
-  .pet-gallery { gap: 19px 13px; }
-  .pet-photo img { aspect-ratio: 3 / 4; }
+  .pet-gallery { grid-auto-columns: 68%; gap: 13px; }
+  .gallery-heading { gap: 12px; }
+  .gallery-controls { gap: 5px; }
   .pet-photo figcaption { font-size: 11px; line-height: 1.5; }
   .pet-motion { grid-template-columns: 1fr; gap: 20px; padding: 20px; margin-top: 28px; }
   .pet-motion-copy h3 { font-size: 23px; }

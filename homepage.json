@@ -242,6 +242,27 @@
         "galleryIntro": "A few small moments from life with Belial.",
         "photos": [
           {
+            "src": "assets/belial/belial-10.webp",
+            "thumbnail": "assets/belial/belial-10-thumb.webp",
+            "caption": "My favourite passenger.",
+            "alt": "Belial smiling with his tongue out while resting on the passenger seat of a car.",
+            "position": "50% 52%"
+          },
+          {
+            "src": "assets/belial/belial-11.webp",
+            "thumbnail": "assets/belial/belial-11-thumb.webp",
+            "caption": "Ready when you are.",
+            "alt": "Belial sitting beside a pair of slippers, wearing his blue harness and lead.",
+            "position": "50% 27%"
+          },
+          {
+            "src": "assets/belial/belial-12.webp",
+            "thumbnail": "assets/belial/belial-12-thumb.webp",
+            "caption": "Out and about together.",
+            "alt": "Belial being carried outside on a sunny day, looking towards the camera.",
+            "position": "50% 52%"
+          },
+          {
             "src": "assets/belial/belial-07.webp",
             "thumbnail": "assets/belial/belial-07-thumb.webp",
             "caption": "Just checking in.",

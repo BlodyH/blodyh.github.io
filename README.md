@@ -1,6 +1,6 @@
 # Yuchen Luo · Personal Homepage
 
-浅蓝与白色的简约学术主页模板。主页为静态 HTML，直接兼容 GitHub Pages，无需安装 Jekyll 或前端依赖。独立的 **Beyond Research** 页面包含 Belial（贝利亚）的介绍和九张照片组成的相册及一段视频，并展示 Kyokushin Karate 的训练经历；CSSA@UoM 栏目介绍技术服务、行前会组织与 AI / IT 社区分享经历。
+浅蓝与白色的简约学术主页模板。主页为静态 HTML，直接兼容 GitHub Pages，无需安装 Jekyll 或前端依赖。独立的 **Beyond Research** 页面包含 Belial（贝利亚）的介绍和十二张照片组成的相册及一段视频，并展示 Kyokushin Karate 的训练经历；CSSA@UoM 栏目介绍技术服务、行前会组织与 AI / IT 社区分享经历。
 
 仓库：<https://github.com/BlodyH/blodyh.github.io>
 
@@ -87,11 +87,11 @@ node scripts/build-homepage.mjs
 }
 ```
 
-Belial 的照片放在 `assets/belial/`。每张照片包含完整 WebP 和 `-thumb.webp` 缩略图；相册配置的 `src`、`thumbnail`、`alt`、`caption` 与 `position` 分别控制完整图片、缩略图、无障碍描述、图注及缩略图的取景位置。第一张照片作为主图，其余八张进入相册。所有九张都可点击放大，支持前后切换、方向键、Esc 关闭与焦点返回；关闭 JavaScript 时仍可直接打开图片。
+Belial 的照片放在 `assets/belial/`。每张照片包含完整 WebP 和 `-thumb.webp` 缩略图；相册配置的 `src`、`thumbnail`、`alt`、`caption` 与 `position` 分别控制完整图片、缩略图、无障碍描述、图注及缩略图的取景位置。第一张照片作为主图，其余十一张收纳在单行横向滚动相册中，支持触摸滑动、触控板滚动、左右按钮和相册区域方向键。所有十二张都可点击放大，支持前后切换、方向键、Esc 关闭与焦点返回；关闭 JavaScript 时仍可直接打开图片。
 
-当前主图为 “Just checking in.”，即凑近镜头、鼻子呈爱心形的照片。视频通过相册项的 `video` 对象配置，包含 `src`、`poster`、`title`、`caption`、`width`、`height`。视频保存在 `assets/belial/belial-playing.mp4`，封面取自视频本身；使用 H.264 / AAC、原生播放控件和手机内联播放，点击后播放。原始 MOV 未修改。
+当前主图为 “My favourite passenger.”，即坐在车内、吐着舌头微笑的照片。新增的三张照片保留原始画面，仅转换为适合网页的 WebP；原主图保留在滚动相册中。视频通过相册项的 `video` 对象配置，包含 `src`、`poster`、`title`、`caption`、`width`、`height`。视频保存在 `assets/belial/belial-playing.mp4`，封面取自视频本身；使用 H.264 / AAC、原生播放控件和手机内联播放，点击后播放。原始 MOV 未修改。
 
-照片通过内置 image_gen 做轻度修饰，提亮白毛、淡化泪痕并柔化背景；Photos 照片库中的原始 HEIC 未修改。网页图片已优化体积，生日、品种、性别及名字来源由本人提供。
+原有九张照片通过内置 image_gen 做轻度修饰，提亮白毛、淡化泪痕并柔化背景；Photos 照片库中的原始 HEIC 未修改。网页图片已优化体积，生日、品种、性别及名字来源由本人提供。
 
 极真空手道栏目使用本人提供的训练经历和原始训练照，记录 2012 年至今的练习、1st Kyu 级位及两次上海锦标赛夺冠。照片说明明确为多年前的影像，不代表当前体型。可在该栏目的 `paragraphs`、`period`、`grade`、`image`、`photoNote` 和 `signoff` 中编辑；`dojoKun` 记录官方七条道场训的精简英文意译及来源链接（https://www.kyokushinkaikan.org/en/philosophy/），不将意译标为逐字引文。正文的 EN / 中文按钮只切换个人感悟，默认英文；原英文存于 `paragraphs`，中文存于 `paragraphsZh`。道场训的每条 `precepts` 记录为 `{ "zh": "中文", "en": "English" }`，固定中文在上、英文在下。未启用 JavaScript 时默认英文仍可阅读。贝利亚的遛狗邀请可在 `walkInvitation` 修改。网页图片在 `assets/karate/`，只作格式和体积优化，未改变原图中的人物或体型。
 

@@ -111,3 +111,37 @@
     controls.hidden = false;
   });
 })();
+
+
+// Keep the album in a single scrollable row; native scrolling also works without JavaScript.
+(() => {
+  document.querySelectorAll('.pet-album').forEach(album => {
+    const gallery = album.querySelector('.pet-gallery');
+    const controls = album.querySelector('.gallery-controls');
+    const previous = controls.querySelector('[data-gallery-prev]');
+    const next = controls.querySelector('[data-gallery-next]');
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const update = () => {
+      const end = gallery.scrollWidth - gallery.clientWidth;
+      controls.hidden = end <= 2;
+      previous.disabled = gallery.scrollLeft <= 2;
+      next.disabled = gallery.scrollLeft >= end - 2;
+    };
+    const move = direction => {
+      const step = gallery.firstElementChild.getBoundingClientRect().width + parseFloat(getComputedStyle(gallery).columnGap);
+      gallery.scrollBy({ left: step * direction, behavior: reducedMotion.matches ? 'instant' : 'smooth' });
+    };
+    previous.addEventListener('click', () => move(-1));
+    next.addEventListener('click', () => move(1));
+    gallery.addEventListener('scroll', update, { passive: true });
+    gallery.addEventListener('keydown', event => {
+      if (event.target !== gallery) return;
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        event.preventDefault();
+        move(event.key === 'ArrowRight' ? 1 : -1);
+      }
+    });
+    window.addEventListener('resize', update);
+    update();
+  });
+})();
