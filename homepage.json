@@ -249,25 +249,11 @@
             "position": "50% 52%"
           },
           {
-            "src": "assets/belial/belial-11.webp",
-            "thumbnail": "assets/belial/belial-11-thumb.webp",
-            "caption": "Ready when you are.",
-            "alt": "Belial sitting beside a pair of slippers, wearing his blue harness and lead.",
-            "position": "50% 27%"
-          },
-          {
-            "src": "assets/belial/belial-12.webp",
-            "thumbnail": "assets/belial/belial-12-thumb.webp",
-            "caption": "Out and about together.",
-            "alt": "Belial being carried outside on a sunny day, looking towards the camera.",
-            "position": "50% 52%"
-          },
-          {
-            "src": "assets/belial/belial-07.webp",
-            "thumbnail": "assets/belial/belial-07-thumb.webp",
-            "caption": "Just checking in.",
-            "alt": "Belial leaning close to the camera, with bright eyes and a little heart-shaped nose.",
-            "position": "50% 52%"
+            "src": "assets/belial/belial-01.webp",
+            "thumbnail": "assets/belial/belial-01-thumb.webp",
+            "caption": "A little bundle of fluff.",
+            "alt": "Belial as a tiny puppy resting in my lap.",
+            "position": "66% 44%"
           },
           {
             "src": "assets/belial/belial-05.webp",
@@ -275,20 +261,6 @@
             "caption": "Tiny paws, serious expression.",
             "alt": "Belial sitting on the carpet and looking up.",
             "position": "50% 43%"
-          },
-          {
-            "src": "assets/belial/belial-03.webp",
-            "thumbnail": "assets/belial/belial-03-thumb.webp",
-            "caption": "A little hello.",
-            "alt": "Belial lying in my lap with his little paws up.",
-            "position": "50% 38%"
-          },
-          {
-            "src": "assets/belial/belial-01.webp",
-            "thumbnail": "assets/belial/belial-01-thumb.webp",
-            "caption": "A little bundle of fluff.",
-            "alt": "Belial as a tiny puppy resting in my lap.",
-            "position": "66% 44%"
           },
           {
             "src": "assets/belial/belial-09.webp",
@@ -305,13 +277,6 @@
             "position": "48% 54%"
           },
           {
-            "src": "assets/belial/belial-04.webp",
-            "thumbnail": "assets/belial/belial-04-thumb.webp",
-            "caption": "The art of the sploot.",
-            "alt": "Belial stretched out on the carpet in the sunshine.",
-            "position": "50% 62%"
-          },
-          {
             "src": "assets/belial/belial-08.webp",
             "thumbnail": "assets/belial/belial-08-thumb.webp",
             "caption": "A very important slipper.",
@@ -319,11 +284,46 @@
             "position": "50% 54%"
           },
           {
+            "src": "assets/belial/belial-04.webp",
+            "thumbnail": "assets/belial/belial-04-thumb.webp",
+            "caption": "The art of the sploot.",
+            "alt": "Belial stretched out on the carpet in the sunshine.",
+            "position": "50% 62%"
+          },
+          {
             "src": "assets/belial/belial-02.webp",
             "thumbnail": "assets/belial/belial-02-thumb.webp",
             "caption": "A peek around the door.",
             "alt": "Belial peeking through his puppy gate.",
             "position": "52% 48%"
+          },
+          {
+            "src": "assets/belial/belial-03.webp",
+            "thumbnail": "assets/belial/belial-03-thumb.webp",
+            "caption": "A little hello.",
+            "alt": "Belial lying in my lap with his little paws up.",
+            "position": "50% 38%"
+          },
+          {
+            "src": "assets/belial/belial-07.webp",
+            "thumbnail": "assets/belial/belial-07-thumb.webp",
+            "caption": "Just checking in.",
+            "alt": "Belial leaning close to the camera, with bright eyes and a little heart-shaped nose.",
+            "position": "50% 52%"
+          },
+          {
+            "src": "assets/belial/belial-11.webp",
+            "thumbnail": "assets/belial/belial-11-thumb.webp",
+            "caption": "Ready when you are.",
+            "alt": "Belial sitting beside a pair of slippers, wearing his blue harness and lead.",
+            "position": "50% 27%"
+          },
+          {
+            "src": "assets/belial/belial-12.webp",
+            "thumbnail": "assets/belial/belial-12-thumb.webp",
+            "caption": "Out and about together.",
+            "alt": "Belial being carried outside on a sunny day, looking towards the camera.",
+            "position": "50% 52%"
           }
         ],
         "video": {
